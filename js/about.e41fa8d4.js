@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunktest_pwa"]=self["webpackChunktest_pwa"]||[]).push([[443],{9914:function(t,e,n){n.r(e),n.d(e,{default:function(){return f}});var u=n(3396);const s={class:"about"},a=(0,u._)("h1",null,"This is an about page",-1),r=[a];function c(t,e,n,a,c,i){return(0,u.wg)(),(0,u.iD)("div",s,r)}var i=n(7929),o={setup(){(0,i.jq)({title:"About"})}},l=n(89);const p=(0,l.Z)(o,[["render",c]]);var f=p}}]);
-//# sourceMappingURL=about.e41fa8d4.js.map
