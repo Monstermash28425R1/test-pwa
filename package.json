@@ -6,12 +6,22 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist",
+    "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/*.json\""
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/vue-fontawesome": "^3.0.0-5",
+    "@kyvg/vue3-notification": "^2.3.6",
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.1.3",
     "core-js": "^3.8.3",
+    "html5-qrcode": "^2.2.1",
     "register-service-worker": "^1.7.2",
     "vue": "^3.2.13",
+    "vue-i18n": "^9.1.0",
     "vue-meta": "^3.0.0-alpha.10",
     "vue-router": "^4.0.3",
     "vuex": "^4.0.0"
@@ -19,6 +29,7 @@
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
+    "@intlify/vue-i18n-loader": "^3.0.0",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-plugin-pwa": "~5.0.0",
@@ -28,6 +39,7 @@
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
     "gh-pages": "^4.0.0",
-    "lint-staged": "^11.1.2"
+    "lint-staged": "^11.1.2",
+    "vue-cli-plugin-i18n": "~2.3.1"
   }
 }
